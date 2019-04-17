@@ -1,0 +1,59 @@
+* {margin: 0;
+    padding: 0;}
+
+body{
+    background-image: url(logobsb.png);
+    background-position: 10% .07%;
+    background-repeat: no-repeat;
+    background-size: 78px;
+}
+h1{
+    color: #af1c1c;
+}
+.motto{
+    color: #af1c1c;
+    text-shadow: none;
+    font-style: italic;
+    text-align: center;
+}
+.navmenu{
+    padding-bottom: 1em;
+}
+
+.galleryPhotos{
+    width: 90%;
+    margin-top: .5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+
+@media only screen and (min-width: 48em){
+    
+    .navmenu{
+        padding-bottom: 4em;  
+    }
+    .galleryPhotos{
+        width: 40%;
+    }
+    .habpics{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+            .navmenu li{
+        float: left;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 69em){
+
+        .galleryPhotos{
+            width: 28%;
+    }
+    .habpics{
+    padding-left: 14em;
+    padding-right: 14em;
+}
+
+}

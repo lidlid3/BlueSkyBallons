@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<! #31a2ac turq 
+    #af1c1c lipstick
+    #f0eff0 grayish white
+    #2f2f28 old wood!>
+<head> 
+<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Blue Sky Balloons - About</title>
+    <link rel="icon" type = "image/ico" href= "logobsb.png"/>
+    <link rel="stylesheet" href="BSB.css"/>
+    <link rel="stylesheet" href="learnMore.css"/>
+    <h3> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+    </head>
+<body>
+  <h1>About</h1>
+    <p class = "motto">learn more</p>
+    <nav class="navmenu">
+		<ul>
+        <li><a href="BlueSkyBalloon.html">Home</a></li>
+		    <li><a href="booking.html">Experience</a></li>
+		    <li><a href="gallery.html">Gallery</a></li>
+			<li><a href="FAQs.html">FAQ</a></li>
+			<li><a href="learnMore.html">About</a>
+		</ul>
+	</nav>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'about')" id="defaultOpen">About</button>
+  <button class="tablinks" onclick="openCity(event, 'pilots')">Pilots</button>
+  <button class="tablinks" onclick="openCity(event, 'location')">Location</button>
+  <button class="tablinks" onclick="openCity(event, 'review')">Reviews</button>
+</div>
+
+<div id="about" class="tabcontent">
+  <h4>Who we are</h4>
+  <img src="fam.jpg" alt="family" class="aboutimg">
+  <p>Blue Sky Balloons is a family company dedicated to offering the best hot air balloon rides in Middle Tennessee. Since 1985, our balloons have embelished the Nashville skies all year round. Peter, Jenny, and their three kids love to fly and decided it was time to open up their own company so others can enjoy the experience. Don't miss out, come soar with us!</p>
+</div>
+
+<div id="pilots" class="tabcontent">
+  <h4>Who will fly you.</h4>
+        <p> Our staff is committed to delivering an impecable performance for our customers. Our three pilots have completed around 500 balloon rides all together. <br>They are the best at what they do, and we are proud to have them in the Blue Sky Balloon family! </p>
+        <h3>John</h3>
+        <img src="images/Pilot3.jpg" alt="John" class="aboutimg">
+        <p> John is our resident comediant! Customers describe their rides with John as the most fun they have had being above the ground.  </p>
+        <hr>
+        <h3>Martha</h3>
+        <img src="images/Pilot2.jpg" alt="Martha" class="aboutimg">
+        <p>Martha has been a Blue Sky Balloon pilot for most of our time flying over the Nashville skies. Her love and knowledge of the city definetely shows through in her rides.</p>
+        <hr>
+        <h3>Tim</h3>
+        <img alt="Tim" src="images/Pilot1.jpg" class="aboutimg">
+            <p>Tim is a hot air balloon expert and enthusiast. He is our best man when it comes to fixing any issue with our balloons. Customers who want to know the science behind our rides always ask for him.  </p> 
+            <hr>
+</div>
+
+<div id="location" class="tabcontent">
+  <h4>Where we are located.</h4>
+  		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.9731420645835!2d-86.75506418537117!3d36.14286721212445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864660fdb0ee3b5%3A0x8719f18720734c93!2sTrevecca+Nazarene+University!5e0!3m2!1sen!2sus!4v1554877585611!5m2!1sen!2sus"  class="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <p>Come stop by or <br>give us a call at <strong>615.444.7382</strong><br>
+  you can also reach us at <strong>rides@blueskyballoons.com</strong></p>
+</div>
+
+<div id="review" class="tabcontent">
+    <h4>What others have to say about us.</h4>
+       
+      <h3>Charles Smith</h3>
+      <img src="images/customer.jpg" alt="Customer1" class="aboutimg">
+      <p>"Blue Sky Balloons is an experience that I will never forget. I will be telling all my friends and family about this place."</p>
+       <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <hr>
+         <h3>Christina Grey</h3>
+      
+      <img src="images/customer22.jpg" alt="Customer2" class="aboutimg">
+      <p>"A couple of my friends and I went to this place for the first time the other day. We all had never been, and this place is amazing. We all had a blast." "</p>
+      <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    <hr>
+      <h3>Lucy and Henry</h3>
+     <img src="images/customer33.jpg" alt="Customer3" class="aboutimg">
+      <p>"Me and my wife love coming here every year. The staff is wonderful. We will be coming back soon!"</p>
+      <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+      <hr>
+</div>
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+    
+<footer> 
+<br>
+<div>
+<a href="https://twitter.com/_alibirch">
+<img title="Twitter" alt="Twitter" src="twitter.png" width="25" height="25"/>
+</a>
+<a href="https://adbirchfield.myportfolio.com/">
+<img title="Facebook" alt="Facebook" src="facebook.png" width="25" height="25"/>
+</a>
+<a href="https://www.instagram.com/_alibirch/?hl=en">
+<img title="Instagram" alt="RSS" src= "insta.png"width="25" height="25"/>
+</a>
+<a href="https://www.linkedin.com/in/abirchfield">
+<img title="linkedin" alt="RSS" src= "linkedin.jpg" width="25" height="25"/>
+</a>
+<br>
+</div>
+<p>
+615.444.7382
+<br>
+rides@blueskyballoons.com
+<br>Blue Sky Balloons &copy;
+</p>
+</footer>
+
+</html>

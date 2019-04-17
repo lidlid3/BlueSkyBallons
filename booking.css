@@ -1,0 +1,130 @@
+* {margin: 0;
+padding: 0;}
+
+body{
+    background-image: url(logobsb.png);
+    background-position: 10% .125%;
+    background-repeat: no-repeat;
+    background-size: 76px;
+}
+h1{
+    color: #af1c1c;
+}
+.motto{
+    color: #af1c1c;
+    text-shadow: none;
+    font-style: italic;
+    text-align: center;
+}
+.navmenu{
+    padding-bottom: 2em;
+}
+
+.myTable { 
+  text-align: center;
+  background-color: #f0eff0;
+  border-collapse: collapse; 
+  }
+.myTable th { 
+  background-color: #f0eff0;
+  color: #af1c1c; 
+  }
+.myTable td, 
+.myTable th { 
+  padding: 10px;
+  border: 3px solid #31a2ac;
+    color: #2f2f28
+  }
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+ul {list-style-type: none;}
+
+body 
+    .calendar {
+      background: #31a2ac;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 15px;
+      width: px;
+    }
+    header {
+      overflow: clear;
+      position: relative;
+    }
+    h2 {
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0 0 10px;
+      text-align: center;
+    }
+    button {
+      position: absolute;
+      top: -4px;
+    }
+    button:first-child {
+      left: 0;
+    }
+    button:last-child {
+      right: 0;
+    }
+    .calendar table {
+      background: #f0eff0;
+      border-collapse: collapse;
+      color: #2f2f28;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 13px;
+      width: 100%;
+    }
+    td {
+      border: 1px solid #2f2f28;
+      color: #2f2f28;
+      line-height: 22px;
+      text-align: center;
+    }
+    tr:first-child td {
+      color: #222;
+      font-weight: 700;
+    }
+    .selected {
+      background: #31a2ac;
+      border: 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .5) inset;
+    }
+
+@media only screen and (min-width: 48em){
+    .myTable{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    .navmenu{
+        padding-bottom: 4em;
+    }
+    
+    body 
+    .calendar {
+      margin-left: 4em;
+      margin-right: 4em;
+    }
+            .navmenu li{
+        float: left;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 69em){
+    body 
+    .calendar{
+        margin-right: 14em;
+        margin-left: 14em;
+    }   
+        .myTable{
+        margin-left: 14em;
+        margin-right: 14em;
+    }
+}

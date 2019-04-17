@@ -1,0 +1,169 @@
+* {margin: 0;
+padding: 0;}
+
+body{
+    background-image: url(fest5.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: 
+}
+h1 {
+	margin: 0;
+	padding: .25em;
+	font-size: 200%;
+	color: aliceblue;
+    text-align: center;
+    position: inherit;
+    float: inherit;
+}
+.navmenu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navmenu ul {
+    list-style-type: none; 
+    }
+.navmenu a {
+    background-color:#f0eff0;
+    padding:8px;
+    margin-top:1px;
+    display:block;
+    width:100%;
+    color:black;
+    text-decoration: none;
+}
+.motto{
+    text-align:center;
+    color: #f0eff0;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 110%;
+    position: static;
+    padding-bottom: .5em;
+}
+
+.main {
+    width:100%;
+    text-align: center;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.main p {text-align: left;
+}
+.main h4{
+    text-align: left;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    color: #2f2f28;
+}
+.logo{
+    float: left;
+    width: 77px;
+    padding-left: 3em;
+    padding-top: .25em;
+}
+
+.button {
+    background-color: #af1c1c;
+    border: none;
+    color: #f0eff0;
+    padding: .35em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 125%;
+    margin: 1em;
+}
+h2{
+    margin: 0;
+	padding: .25em;
+	font-size: 125%;
+	color: #2f2f28;
+    text-align: center;
+}
+.journey{
+    width: 90%;
+    margin-top: .5em;
+}
+body{
+    overflow-x: hidden;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+footer{
+    margin-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+    width:100%;
+    background-color: #f0eff0;
+}
+
+@media only screen and (min-width: 48em){
+    
+    .navmenu li a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .navmenu li{
+        float: left;
+        width: 25%;
+    }
+    .navmenu ul {
+        list-style-type: none; 
+    }
+    .navmenu a {
+        padding:8px;
+        margin-top:1em;;
+        display:block;
+        width:100%;
+        color:black;
+        text-decoration: none;
+    }
+    .journey {
+        width: 33.33%;
+        padding: 1em;
+    }
+    h2{
+        font-size: 150%;
+        color: aliceblue;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000000;
+    }
+    .button{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .exp{
+        width: 33.33%;
+        display: table;
+        padding: .5em;
+    }
+    .row{
+        display: flex;
+    }
+}
+@media only screen and (min-width: 69em){
+        .journey {
+            width: 20%;
+            padding: 1em;
+            margin-bottom: 1em;
+    }
+        .button{
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+            padding:.75em;
+            font-size: 150%;
+    }
+        .exp{
+            padding: 1em;
+    }
+    
+}
+    

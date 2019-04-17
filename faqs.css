@@ -1,0 +1,60 @@
+* {margin: 0;
+padding: 0;}
+
+body{
+    background-image: url(logobsb.png);
+    background-position: 10% .125%;
+    background-repeat: no-repeat;
+    background-size: 76px;
+}
+
+h1{
+    color: #af1c1c;
+}
+.motto{
+    color: #af1c1c;
+    text-shadow: none;
+    font-style: italic;
+    text-align: center;
+}
+.navmenu{
+    padding-bottom: 2em;
+}
+.ques{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: #2f2f28;
+    border-bottom: 1.5px solid #af1c1c;
+}
+h4{
+    color: #31a2ac;
+    font-weight: bold;
+    padding-bottom: 1em;
+    font-size: 110%;
+}
+.questions{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+@media only screen and (min-width: 48em){
+    .questions{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    .navmenu{
+        padding-bottom: 4em;
+    }
+        .navmenu li{
+        float: left;
+        width: 20%;
+    }
+    
+}
+
+@media only screen and (min-width: 69em){
+    .questions{
+        margin-right: 14em;
+        margin-left: 14em;
+    }   
+}
